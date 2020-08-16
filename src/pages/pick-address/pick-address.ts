@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { EnderecoDTO } from '../../models/endereco.dto';
-import {ClienteDTO} from "../../models/cliente.dto";
 import {ClienteService} from "../../services/domain/cliente.service";
 import {StorageService} from "../../services/storage.service";
 import {PedidoDTO} from "../../models/pedido.dto";
@@ -54,7 +53,7 @@ export class PickAddressPage {
 
   nextPage(item: EnderecoDTO) {
     this.pedido.enderecoDeEntrega = {id: item.id};
-    console.log(this.pedido);
+    this.navCtrl.push('PaymentPage', {pedido: this.pedido})
   }
 
 }
