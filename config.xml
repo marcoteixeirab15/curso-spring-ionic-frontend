@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>cursoSprinIonic</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
+<widget id="com.marcobarbosa.springioniccurso" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Sistemas de Pedidos</name>
+    <description>Um estudo de caso sobre Spring boot e Ionic, curso ministrado pelo professor Nelio Alves</description>
+    <author email="marco.teixeirab15@gmail.com" href="https://www.linkedin.com/in/marco-barbosa-8680861a5/">Marco Barbosa</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -101,4 +101,5 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^4.2.1" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.2.0" />
     <plugin name="cordova-plugin-camera" spec="^4.1.0" />
+    <engine name="android" spec="~6.3.0" />
 </widget>
